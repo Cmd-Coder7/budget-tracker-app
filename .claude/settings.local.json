@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx vite *)",
+      "Bash(./node_modules/.bin/vite build *)",
+      "Read(//usr/local/bin/**)",
+      "Read(//Users/arunsharma/.nvm/versions/**)",
+      "Bash(command -v brew)",
+      "Bash(brew --prefix node)",
+      "Bash(find / -maxdepth 4 -iname \"node\" -type f)"
+    ]
+  }
+}
